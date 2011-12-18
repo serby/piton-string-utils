@@ -22,6 +22,10 @@ describe('piton-string-utils', function() {
 			'helloWorld'.decamelcase().should.equal('Hello World');
 		});
 
+		it ('delimter can be given', function() {
+			'helloWorld'.decamelcase('-').should.equal('Hello-World');
+		});
+
 		it('camelcase with upper case first charater get converted', function() {
 			'HelloWorld'.decamelcase().should.equal('Hello World');
 		});
