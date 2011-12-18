@@ -1,7 +1,7 @@
 {
 	"name": "piton-string-utils",
 	"description": "Various string utilities from the piton toolkit",
-	"version": "0.0.2",
+	"version": "0.2.0",
 	"author": "Paul Serby <paul.serby@clock.co.uk>",
 	"contributors": [
 		{ "name": "Paul Serby", "email": "paul.serby@clock.co.uk" }
@@ -9,13 +9,13 @@
 	"dependencies": {
 	},
 	"devDependencies": {
-		"expresso": "0.7.2"
+		"mocha": "0.3.6"
 	},
 	"keywords": ["string"],
 	"repository": "git://github.com/serby/piton-string-utils",
 	"main": "index",
 	"scripts": {
-		"test": "make test",
+		"test": "mocha -r should -R spec",
 		"prepublish" : "npm prune"
 	},
 	"engines": { "node": ">= 0.4.6 < 0.7.0" }
