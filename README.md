@@ -1,14 +1,13 @@
-# piton-string-util - String functions from the Piton Component Library
+# piton-string-utils - String functions from the Piton Component Library
 
-General purpose string parsing and formatting functions
-
+Extends basic String type with extra general purpose string parsing and formatting functions
 
 ## Installation
 
-TBC
+     npm install piton-string-utils
 
 ## Credits
-[Paul Serby](https://github.com/PabloSerbo/)
+[Paul Serby](https://github.com/serby/)
 
 ## Licence
 Licenced under the [New BSD License](http://opensource.org/licenses/bsd-license.php)
