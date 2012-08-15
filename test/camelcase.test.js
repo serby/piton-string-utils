@@ -1,25 +1,24 @@
-var
-	stringUtils = require('../../piton-string-utils'),
-	assert = require('assert');
+var stringUtils = require('..')
+	;
 
 describe('piton-string-utils', function() {
 
 	describe('#camelcase()', function() {
 
 		it('empty string returns empty string', function() {
-			''.camelcase().should.equal('');
+			stringUtils.camelcase('').should.eql('');
 		});
 
-		it('single words should be entirly lowercase', function() {
-			'HELLO'.camelcase().should.equal('hello');
+		it('single words should be entirely lowercase', function() {
+			stringUtils.camelcase('HELLO').should.eql('hello');
 		});
 
 		it ('dashes are removed and first letters uppercased', function() {
-			'Hello-World'.camelcase().should.equal('helloWorld');
+			stringUtils.camelcase('Hello-World').should.eql('helloWorld');
 		});
 
 		it ('spaces are removed and first letters uppercased', function() {
-			'Hello World'.camelcase().should.equal('helloWorld');
+			stringUtils.camelcase('Hello World').should.eql('helloWorld');
 		});
 
 	});

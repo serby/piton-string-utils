@@ -9,7 +9,8 @@
 	"dependencies": {
 	},
 	"devDependencies": {
-		"mocha": "~0.3"
+		"mocha": "*",
+		"should": "*"
 	},
 	"keywords": ["string"],
 	"repository": "git://github.com/serby/piton-string-utils",
