@@ -1,7 +1,7 @@
 {
 	"name": "piton-string-utils",
 	"description": "Various string utilities from the piton toolkit",
-	"version": "0.2.1",
+	"version": "0.3.0",
 	"author": "Paul Serby <paul.serby@clock.co.uk>",
 	"contributors": [
 		{ "name": "Paul Serby", "email": "paul.serby@clock.co.uk" }
