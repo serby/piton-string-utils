@@ -1,5 +1,7 @@
 # piton-string-utils - String functions from the Piton Component Library
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/serby/piton-string-utils.svg)](https://greenkeeper.io/)
+
 Extends basic String type with extra general purpose string parsing and formatting functions
 
 ## Installation
